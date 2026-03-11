@@ -9,6 +9,7 @@ int main()
 	// 1부터 크기까지 초기화 하고 출력하는 프로그램 만들어보슈.
 	int Size = 0;
 	
+	cout << "배열 크기 입력해보세요: " << endl;
 	cin >> Size;
 
 	int* DArray = new int[Size];
